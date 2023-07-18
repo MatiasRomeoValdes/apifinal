@@ -21,6 +21,7 @@ app.use( usersRouter )
 app.use( productsRouter )
 app.use( authRoutes )
 
+
 const { PORT } = environment
 app.listen( PORT, () => {
   console.log( `Aplicación iniciada en puerto ${ PORT }` )
